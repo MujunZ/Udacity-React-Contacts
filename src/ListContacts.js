@@ -13,9 +13,9 @@ const ListContacts = (props) =>
         <button onClick={() => props.onDeleteContact(contact)} className='contact-remove'>
             Remove
         </button>
-		</li>
-		))}
-      </ol>
+    		</li>
+    		))}
+    </ol>
   );
 
 export default ListContacts;
